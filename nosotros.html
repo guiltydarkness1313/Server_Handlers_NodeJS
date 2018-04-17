@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Acerca de Nosotros</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        #portrait{
+            color: white;
+            height: 550px;
+            overflow: hidden;
+            background-size: cover;
+            background: url("https://paytmofferlive.wpengine.com/about-us/wp-content/uploads/sites/3/2015/03/work-with-us.jpg") center center;
+        }
+        #vision{
+            background-color: #0c5460;
+        }
+        #mision{
+            background-color: #34ce57;
+        }
+        .sombra{
+            text-shadow: 0 0 2px black;
+        }
+        nav{
+            color: white;
+        }
+        #devs{
+            background-color: white;
+        }
+        div.card{
+            width: 250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="index">Luminizer Ltd.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactenos">Contáctenos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<header id="portrait" class="container-fluid text-center text-white d-flex">
+    <div class="container my-auto">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h2 class="sombra" style="font-size:50px;">Acerca de Nosotros</h2>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="devs">
+    <div class="container-fluid">
+        <h2 class="pb-4 pt-4 text-center">Nuestro equipo</h2>
+        <div class="row pb-4">
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://static.lwn.net/images/2010/osc-bosdonnat.jpg" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Javier Riva</h5>
+                        <p>desarrollador Front-End, especializado en JavaScript</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://cdn-images-1.medium.com/max/1200/1*Y0UYuGcFGSCfs5Eexafq6A.png" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Jack Daniel</h5>
+                        <p>Desarrollador Back-End especializado en Node.JS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.ecommercetimes.com/article_images/story_graphics_xlarge/xl-2017-woman-programmer-1.jpg" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Daniela Prado</h5>
+                        <p>Diseñadora especializada en UX y desarrollo de interfaces</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="http://blog.tmcnet.com/blog/rich-tehrani/Photo%2020140612215321.jpg" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Jeff O'Connor</h5>
+                        <p>Especialista en Gestión de proyectos y metologías ágiles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="mision" class="p-5">
+    <div class="container-fluid">
+        <h2 class="text-center text-white sombra pb-5">Nuestra misión</h2>
+        <div class="text-center text-white pb-5 px-5">
+            <p style="font-size: larger">Llevar la tecnologia a las empresas mas emergentes del mercado. Para eso, hacemos uso de las tecnologías
+            actuales, fomentando la innovación y creatividad entre nuestros clientes.</p>
+        </div>
+    </div>
+</section>
+<section id="vision" class="p-5">
+    <div class="container-fluid">
+        <h2 class="text-center text-white sombra pb-5">Nuestro visión</h2>
+        <div class="text-center text-white pb-5 px-5">
+            <p style="font-size: larger">Poder ser reconocidos por la calidad de nuestros proyectos y ganar la confianza de nuestros clientes a traves de nuestros productos de calidad.
+            Además, nuestro compromiso es reflejar la innovación, creatividad y pasión por lo que hacemos mostrando profesionalismo en lo que desarrollamos </p>
+        </div>
+    </div>
+</section>
+</body>
+</html>

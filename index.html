@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenido a Luminize Ltd.</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        #portrait{
+            color: white;
+            height: 550px;
+            overflow: hidden;
+            background-size: cover;
+            background: url("https://www.peru-retail.com/wp-content/uploads/oficina-2.jpg") center center;
+        }
+        #about{
+            width:100%;
+            height:400px;
+            background: #9fcdff;
+
+        }
+        .sombra{
+            text-shadow: 0 0 4px black;
+        }
+        #img-corner{
+        position: fixed;right:0;bottom:0;height: 10%;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="index.html">Luminizer Ltd.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactenos">Contáctenos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<header id="portrait" class="container-fluid text-center text-white d-flex">
+    <div class="container my-auto">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h2 class="sombra" style="font-size:50px;">Bienvenido a Luminizer</h2>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="about" class="p-5">
+    <div class="container-fluid">
+        <h2 class="text-center text-white sombra">La tecnologia es importante para nosotros</h2>
+        <div class="container pt-5 text-center text-white">
+            <p style="font-size: x-large">Contamos con un equipo integrado y motivado que nos permite ofrecer capacidad de servicio con un alto nivel de competencias tecnológicas.
+                Asumimos los retos de nuestros clientes como si fueran nuestros, ya que no sólo tenemos el deseo de ayudar, sino el compromiso total para alcanzar el máximo rendimiento. Nuestros más de 14 años en el mercado nos han dado un sentido de existencia muy claro y una base sólida para innovar en nuestros servicios. </p>
+        </div>
+        <img id="img-corner" src="https://i.warosu.org/data/g/img/0615/52/1500978304097.png">
+    </div>
+</section>
+<section id="proyecto">
+    <div class="container-fluid p-4">
+        <h2 class="pb-4 text-center">Nuestros proyectos emblema</h2>
+        <div class="row text-center">
+            <div class="col-sm-1"></div>
+            <div class="col-md mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="http://blog.aulaformativa.com/wp-content/uploads/2015/12/InlinePreviewImage.png" height="300">
+                    <div class="card-body">
+                        <h5 class="card-title">Find Restaurants</h5>
+                        <p>Aplicación para encontrar los mejores restaurantes de tu ciudad entre otras cosas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" height="300" src="http://localhost:8080/img/diajosac.png">
+                    <div class="card-body">
+                        <h5 class="card-title">DIAJO SAC</h5>
+                        <p>La nueva página de DIAJO SAC representa un avance en tecnologia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" height="300" src="https://lh3.googleusercontent.com/562qn1Z7KOHzDLTpnYMFBFd1ElwxyoiQMaj7ZMOmBN8BTOY54pP9puJdYJFVB8sR-Q=w3072-h1454">
+                    <div class="card-body">
+                        <h5 class="card-title">IHear</h5>
+                        <p>Aplicación para poder ver noticias del perú y mundo a través de un difusor de información RSS</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+</body>
+</html>
